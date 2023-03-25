@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #10141e;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p {
+    margin-block-end: 0em;
+    margin-block-start: 0em;
+}
+
+.main {
+    width: 100%;
+    height: 935px;
+    margin: 0;
+    padding: 0;
+    background-image: url(./bg.png);
+    position: relative;
+    top: -150px;
+    display: flex;
+    z-index: 10;
+}
+
+.bg {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 150px;
+    margin-left: 195px;
+}
+
+.entry {
+    margin-top: 390px;
+    margin-left: 16px;
+}
+
+.main-header {
+    font-family: 'Rubik';
+    font-weight: 600;
+    color: white;
+    font-size: 50px;
+    margin-block-end: 0em;
+}
+
+.main-p {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 35px;
+    color: white;
+}
+
+.par {
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 25px;
+    color: white;
+    margin-top: 7.5px;
+}
+
+button {
+    width: 198px;
+    height: 47px;
+    font-size: 20px;
+    background-color: #0779e4;
+    border-radius: 8px;
+    border: 0px;
+    margin-top: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #FFF;
+    transition: 1.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 26px 3px #0779e4;
+}
+
+.btn {
+    font-size: 15px;
+    margin-left: 600px;
+    margin-top: 830px;
+    transition: 1.3s;
+    text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    background-color: #0779e4;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 26px 3px #0779e4;
+}
+
+.section {
+    width: 100%;
+    height: fit-content;    
+    position: relative;
+    top: -105px;
+    z-index: 10;
+    display: flex;
+}
+
+section {
+    width: 100%;
+    height: 139vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #19212F;
+    position: absolute;
+    top: 969px;
+}
+
+.stat {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+svg  {
+    position: relative;
+}
+
+.number {
+    font-family: 'Rubik';
+    font-size: 40px;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.second-p {
+    color: #0779e4;
+    text-shadow: 0 0 15px rgba(7,121,228,.5);
+    font-size: 25px;
+    font-family: 'Rubik';
+}
+
+.first {
+    margin-left: 275px;
+}
+
+.second {
+    margin: 0px 400px;
+}
+
+.freq {
+    margin-block-end: 0em;
+    margin-block-start: 0em;
+    font-size: 40px;
+    color: #FFF;
+    font-family: 'Rubik';
+    font-weight: 600;
+    margin-top: 70px;
+    margin-bottom: 5px;
+}
+
+.section-entry {
+    font-family: 'Rubik';
+    font-size: 22px;
+    color: #ACACAC;
+    margin-bottom: 53px;
+}
+
+li {
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 15px;
+}
+
+.according {
+    width: 936px;
+    height: 70px;
+    border: 1px solid #2f3c58;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #1e2838;
+    box-shadow: none;
+    transition: 1.3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #e5e5e5;
+    font-size: 20px;
+    font-family: 'Rubik';
+    font-weight: 400;
+    padding: 0px 15px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.according p {
+    color: #e5e5e5;
+    font-size: 20px;
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+
+.according:hover {
+    transform: scale(1);
+    box-shadow: none;
+    background-color: #2f3c58;;
+}
+
+.relative {
+    position: relative;
+    left: 20px;
+}
+
+.margin {
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.discord {
+    width: 300px;
+    height: 100px;
+    background-color: #5865f2;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+    cursor: pointer;
+    transition: 1.3s;
+    margin-bottom: 132px;
+}
+
+.discord:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px 0 rgba(88,101,242,.7);
+}
+
+.disco {
+    width: 200px;
+}
+
+.layer {
+    width: 100%;
+    height: 350px;
+}
